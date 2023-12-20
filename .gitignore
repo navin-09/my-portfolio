@@ -1,0 +1,39 @@
+# .gitignore
+
+# Node.js
+node_modules/
+
+# Client
+/client/node_modules/
+/client/build/
+/client/.env
+/client/.env.local
+/client/.env.development
+/client/.env.production
+
+# Server
+/server/node_modules/
+/server/.env
+/server/.env.local
+/server/.env.development
+/server/.env.production
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+logs/
+*.log
+npm-debug.log*
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# Dependency directories
+/jspm_packages/
+/bower_components/
+
+# Compiled binary addons
+/build/Release
